@@ -6,9 +6,11 @@ body {
     text-emphasis-color: #ffa531;
   }
 
-table, th, td {
+#temperatura table, th, td {
   border: 1px solid;
 }
+#gato table, th, td {
+  border: 1px solid;
   
   h1 {
     color: #ffa531;
