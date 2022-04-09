@@ -34,7 +34,18 @@ body {
     color:  #ffa531;
     text-align: center;
   }
-  
+
+  h2 {
+    font-size: large;
+    color:  #ffa531;
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+    color: white;
+    font-family: verdana;
+  }
+
   p {
     text-align: center;
     color: white;

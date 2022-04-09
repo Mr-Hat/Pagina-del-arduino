@@ -6,7 +6,24 @@
     <link rel="icon" href="https://media.discordapp.net/attachments/959570367675002905/959932714801328258/unknown.png">
 </head>
 <body>
-    <h1>Introduzca su usuario y clave</h1>
+    <h1>Inicio de sesión</h1>
+    <h4>Si es su primera vez visitando la página, considere crearse una cuenta para utilizar sus funcionalidades
+        Si ya tiene una cuenta, por favor inicie sesión
+    </h4>
+    <h2>Registrarse</h2>
+    <center><form id="registro" action="valida.php"
+        method="POST">
+        <div id="form">
+            <label for="usuario">Nombre de usuario</label>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            <label for="clave">Contraseña</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+</center>
+<h2>Introduzca su usuario y clave</h2>
     <center><form id="formulario" action="valida.php"
     method="POST">
   <div id="form">
