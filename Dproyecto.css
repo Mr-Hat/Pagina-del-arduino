@@ -41,3 +41,11 @@ body {
     font-family: verdana;
     font-size: 30px;
   }
+
+  #form label {
+    color: white;
+    font-family: verdana;
+  }
+  #form input {
+    font-family: verdana;
+  }
