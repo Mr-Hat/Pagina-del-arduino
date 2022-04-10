@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="Dproyecto.css">
     <link rel="icon" href="https://media.discordapp.net/attachments/959570367675002905/959932714801328258/unknown.png">
 <body>
+        <script>
+            let d = new Date();
+            document.body.innerHTML = "<p> Hora actual es " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "</p>";
+        </script>
+    <p>Hora actual es </p>
     <div id="temperatura">         
     <h1>Temperatura del hogar</h1>
         <table align="center">
@@ -117,10 +122,6 @@
     <div id="gato">
         <hr>
         <h1>Gestión de paseo de tu mascota</h1>
-        <script>
-            let d = new Date();
-            document.body.innerHTML = "<h1>En este momento la hora es: " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds() + "</h1>";
-        </script>
         <table align="center">
             <tr>
                 <th colspan="3"><br>Cantidad de paseos en el día</th>
