@@ -1,6 +1,6 @@
 body {
   font-family: 'Times New Roman', Times, serif;
-  background-color: black;
+  background-image: url("https://cdn.discordapp.com/attachments/959570367675002905/969063125443821598/fondo.png");
   padding: 0px;
   margin: 0px;
   text-emphasis-color: #ffa531;
@@ -27,6 +27,7 @@ body {
   #gato table, th, td {
     border: 1px solid;
     color: white;
+    background-color: black;
   }
 
   h1 {
