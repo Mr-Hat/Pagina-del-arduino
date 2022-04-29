@@ -18,7 +18,7 @@ $pass = $_POST["txtpassword"];
 	
 	if(mysqli_query($conn,$sqlgrabar))
 	{
-		echo "<script> alert('Usuario registrado con exito: $nombre'); window.location='Registro.php' </script>";
+		echo "<script> alert('Usuario registrado con exito: $nombre'); window.location='index.php' </script>";
 	}else 
 	{
 		echo "Error: ".$sql."<br>".mysql_error($conn);

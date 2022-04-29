@@ -23,7 +23,7 @@ if($nr == 1)
 }
 else if ($nr == 0) 
 {
-	echo "<script> alert('Usuario no existe');window.location= 'Registro.php' </script>";
+	echo "<script> alert('Usuario no existe');window.location= 'index.php' </script>";
 }
 
 } 
