@@ -1,1 +1,0 @@
-INSERT INTO usuarios(contraseña,nombre_usuario,nombre,apellido_paterno,apellido_materno,correo) VALUES ("a4843$#a","Noobmaster696969","pepito","perez","perez","pepito.perez@gamar.cl");
