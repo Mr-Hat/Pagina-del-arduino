@@ -9,6 +9,6 @@ nombre varchar(100),
 apellido_paterno varchar(100),
 apellido_materno varchar(100),
 correo varchar(100),
-PRIMARY KEY (contraseña)
+PRIMARY KEY (nombre_usuario)
 );
 
