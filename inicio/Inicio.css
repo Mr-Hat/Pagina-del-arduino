@@ -4,7 +4,7 @@
 }
 
 .titulo {
-    margin-right: 59.9%;
+    margin-right: 4.9%;
 }
 
 .registrarse {
@@ -16,6 +16,7 @@
     color: blue;
     cursor: pointer;
     transition: .3s all; 
+    margin-left: 5%;
 }
 
 .logearse {
@@ -35,14 +36,23 @@
 }
 
 header{
-    background-color: darkgreen;
+    background-color: rgb(41, 41, 41);
 }
 
 h1{
+    text-align: center;
     color: orange;
+}
+h2{
+    text-align: center;
+    color:rgba(16, 126, 107, 0.836);
+}
+p{
+    text-align: center;
 }
 
 body{
-    background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/959570367675002905/969063125443821598/fondo.png");
+    background-size: cover;
     color: white;     
 }
