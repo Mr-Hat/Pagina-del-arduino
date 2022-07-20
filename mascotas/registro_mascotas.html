@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de Registro</title>
+<link href="" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="group">
+  <form action="registro_mascotas.php" method="POST">
+  <h2><em>Formulario de Registro</em></h2>
+  <p>ingrese los datos de la mascota que tenga</p>  
+     
+      <label for="nombre">Nombre <span><em></em></span></label>
+      <input type="text" name="nombre" class="form-input" required/>   
+      <br>
+      <label for="fecha_nac">Fecha de nacimiento <span><em></em></span></label>
+      <input type="text" name="fecha_nac" class="form-input" required/>   
+      <br>
+
+      <label for="especie">Especie <span><em></em></span></label>
+      <input type="text" name="especie" class="form-input" required/>   
+      <br>
+      
+     <center> <input class="form-btn" name="submit" type="submit" value="Registrar" /></center>
+    </p>
+  </form>
+</div>
+</body>
+</html>
