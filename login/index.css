@@ -77,6 +77,17 @@ a{
 	font-size: 14px;
 }
 
+.sidebar{
+    width:30%;
+    float: left;
+    padding-top: 200px /* this is the header height */
+}
+.post-content{
+    width:70%;
+    float: right;
+
+}
+
 .boton:hover{
     background-color: rgb(126, 54, 6);
 }

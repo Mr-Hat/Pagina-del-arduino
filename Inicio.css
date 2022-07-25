@@ -50,9 +50,42 @@ h2{
 p{
     text-align: center;
 }
+a{
+	font-size: 14px;
+}
+button{
+    padding: 10px;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-weight: 100;
+    background: yellowgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: .3s all;
+    width: 200px;
+}
 
 body{
     background-image: url("https://cdn.discordapp.com/attachments/959570367675002905/969063125443821598/fondo.png");
     background-size: cover;
     color: white;     
+}
+.sidebar{
+    width:30%;
+    float: left;
+    padding-top: 200px /* this is the header height */
+}
+.post-content{
+    width:70%;
+    float: right;
+
+}
+.header-left{
+    position: absolute;
+    width: 200px; /* give your desired width */
+    height: 200px;/*give your desired height */
+    top: 0;
+    left: 0;
+
 }
