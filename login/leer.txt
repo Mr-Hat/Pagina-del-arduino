@@ -1,0 +1,4 @@
+el archivo no se ha probado, en teroria funciona
+C:\xampp\htdocs\login register\"llamar archivo a eleccion"
+falta poner el logo, y mejorar la visualizacion mediante el index.css
+nota la contraseña en conexion.php debe ser cambiada
