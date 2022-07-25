@@ -9,7 +9,7 @@ $consulta = "SELECT * FROM mascotas";
     <title>Mascotas</title>
     <link rel="stylesheet" href="">
     <link rel="icon" href="https://media.discordapp.net/attachments/959570367675002905/959932714801328258/unknown.png">
-    <a href=""></a>
+    <a href="index.css"></a>
 </head>
 <style>
 table {
