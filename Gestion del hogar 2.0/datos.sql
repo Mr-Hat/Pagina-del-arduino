@@ -15,7 +15,10 @@ INSERT INTO distancias VALUES (13, "2022-07-11", "10:20:00", 15, "Cierre Puerta"
 INSERT INTO distancias VALUES (14, "2022-07-11", "10:20:00", 70, "");
 INSERT INTO distancias VALUES (15, "2022-07-11", "10:40:00", 30, "Proximidad");
 
+-- -- Mascotas registradas
 INSERT INTO mascotas VALUES (1,"Peppa", "2013-05-03", "perro");
 INSERT INTO mascotas VALUES (2,"Juancho", "2020-03-12", "loro");
 
-INSERT INTO usuarios VALUES ("a4843$#a","Noobmaster696969","pepito","perez","perez","pepito.perez@gamar.cl");
+-- -- Personas registradas
+INSERT INTO usuarios VALUES (1,"a4843$#a","Noobmaster696969","pepito","perez","perez","pepito.perez@gamar.cl");
+INSERT INTO usuarios VALUES (2,"a4wef","Jalasiper","Me'a","Brawa","Satar","Jalasipe.Brawa@gamar.cl");
