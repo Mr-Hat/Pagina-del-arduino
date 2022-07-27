@@ -1,0 +1,93 @@
+<!--  
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Formulario para registrarse</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="grupo">
+    <form action="Registro.php" method="post" name="signin-form">
+    <div class="form-element"> 
+        <table>
+        <tr><td><label for="nombre">Registrar</em></span></label></td></tr>
+        <tr><td><img src="inserte logo"/></td></tr>
+        <tr><td><input type="text" name="txtusuario" class="form-input"placeholder="&#128273; Ingresar usuario" required/></td></tr>
+        <tr><td><input type="password" name="txtpassword" placeholder="&#128274; Ingresar Contraseña" required /> </td></tr>
+        <tr><td><input type="submit" value="Registrar" name="btnregistrar" class="boton"/> </td></tr>
+        <br>
+        <tr><td><a href="Logearse.html" style="float:right">Iniciar sesión</a></td></tr>
+        </table>
+    </div>
+    </form>
+</div>
+</body>
+</html>
+-->
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formulario de Registro</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+
+</head>
+ 
+<body>
+<div class="group">
+<table>
+  <form action="registro.php" method="POST">
+    <br>
+    <h2><center><em>Formulario de Registro</em></center></h2>
+    <br>
+    <tr>
+        <th><img src="amlomorado.png"/></th>
+    </tr>
+    <tr>
+      <th><label for="nombre">Nombre <span><em></em></span></label>
+        <input type="text" name="nombre" class="form-input" required/></th>
+      <br>
+    </tr>
+    <tr>
+      <th><label for="ap">Apellido Paterno <span><em></em></span></label>
+      <input type="text" name="app" class="form-input" required/>  </th>
+      <br>
+    </tr>
+    <tr>
+      <th><label for="am">Apellido Materno <span><em></em></span></label>
+      <input type="text" name="nombre" class="form-input" required/>   </th>
+      <br>
+    </tr>
+    <tr>
+      <th><label for="user">Nombre de usuario <span><em></em></span></label>
+      <input type="text" name="user" class="form-input" required/></th> 
+      <br>
+    </tr>
+    <tr>
+      <th><label for="email">Correo <span><em></em></span></label>
+      <input type="text" name="email" class="form-input" required/> 
+      </th>
+      <br>        
+    </tr> 
+    <tr>
+      <th><label for="ps">Contraseña <span><em></em></span></label>
+      <input type="text" name="ps" class="form-input" required/></th>
+      <br>
+    </tr>
+    <tr>
+    <td><a href="Logearse.html" style="float:right">Iniciar sesión</a></td>
+    </tr>
+    <tr>
+      <td><input type="submit" value="Registrarse" name="btnregistrar" class="boton"/></td>
+    </tr>
+  </form>
+</table>
+</div>
+</body>
+</html>
+<!-- 
+<center> <input class="form-btn" name="submit" type="submit" value="Registrar" /></center>
+-->
