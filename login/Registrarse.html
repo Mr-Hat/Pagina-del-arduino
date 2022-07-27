@@ -33,13 +33,14 @@
 <meta charset="utf-8">
 <title>Formulario de Registro</title>
 <link href="index.css" rel="stylesheet" type="text/css">
+<script defer src="registro.js"></script>
 
 </head>
  
 <body>
 <div class="group">
 <table>
-  <form action="registro.php" method="POST">
+  <form action="registro.php" method="POST" id = "registro">
     <br>
     <h2><center><em>Formulario de Registro</em></center></h2>
     <br>
@@ -48,33 +49,33 @@
     </tr>
     <tr>
       <th><label for="nombre">Nombre <span><em></em></span></label>
-        <input type="text" name="nombre" class="form-input" required/></th>
+        <input type="text" name="nombre" class="form-input" id="nombre"/></th>
       <br>
     </tr>
     <tr>
       <th><label for="ap">Apellido Paterno <span><em></em></span></label>
-      <input type="text" name="app" class="form-input" required/>  </th>
+      <input type="text" name="app" class="form-input" id="ap" />  </th>
       <br>
     </tr>
     <tr>
       <th><label for="am">Apellido Materno <span><em></em></span></label>
-      <input type="text" name="nombre" class="form-input" required/>   </th>
+      <input type="text" name="nombre" class="form-input" id="am"/>   </th>
       <br>
     </tr>
     <tr>
       <th><label for="user">Nombre de usuario <span><em></em></span></label>
-      <input type="text" name="user" class="form-input" required/></th> 
+      <input type="text" name="user" class="form-input" id="user" /></th> 
       <br>
     </tr>
     <tr>
       <th><label for="email">Correo <span><em></em></span></label>
-      <input type="text" name="email" class="form-input" required/> 
+      <input type="text" name="email" class="form-input" id="email"/> 
       </th>
       <br>        
     </tr> 
     <tr>
       <th><label for="ps">Contraseña <span><em></em></span></label>
-      <input type="text" name="ps" class="form-input" required/></th>
+      <input type="text" name="ps" class="form-input" id="ps"/></th>
       <br>
     </tr>
     <tr>

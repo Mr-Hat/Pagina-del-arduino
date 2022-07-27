@@ -34,12 +34,13 @@
   <title>Inicio de sesión</title>
   <link href="index.css" rel="stylesheet" type="text/css">
   <link rel="icon" href="https://media.discordapp.net/attachments/959570367675002905/959932714801328258/unknown.png">
+  <script defer src="logearse.js"></script>
 </head>
  
 <body>
 <div class="group">
 <table>
-  <form action="registro.php" method="POST">
+  <form action="registro.php" method="POST" id="formulario">
   <br>
   <h2><center><em>Inicio de sesión</em></center></h2>
   <tr>
@@ -48,13 +49,13 @@
     <tr>
       <th>
       <label for="user">Nombre de usuario <span><em></em></span></label>
-      <input type="text" name="user" class="form-input" required/></th>
+      <input type="text" name="user" class="form-input" id="user"/></th>
       <br>
 
     </tr>
     <tr>
       <th><label for="ps">Contraseña <span><em></em></span></label>
-      <input type="text" name="ps" class="form-input" required/></th>
+      <input type="text" name="ps" class="form-input" id="ps"/></th>
       <br>
     </tr>
     <tr>
