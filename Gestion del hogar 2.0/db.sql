@@ -2,7 +2,7 @@ CREATE DATABASE Gestion;
 
 USE Gestion;
 
-CREATE TABLE temperaturas (
+CREATE TABLE temperaturas(
   id_medicion integer,
   fecha date,
   hora time,
@@ -35,7 +35,7 @@ CREATE TABLE usuarios(
   apellido_paterno varchar(100),
   apellido_materno varchar(100),
   correo varchar(100),
-  PRIMARY KEY (nombre_usuario),
+  PRIMARY KEY (nombre_usuario)
 );
 
 
