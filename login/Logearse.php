@@ -1,5 +1,5 @@
 <?php
-include('conexion.php');
+include('conexion_general.php');
 
 session_start();
 if(isset($_SESSION['nombre']))
@@ -11,9 +11,9 @@ if(isset($_POST['btningresar']))
 {
 	
 $nombre_usuario = $_POST["user"];
-$contraseña = $_POST["ps"];
+$ps = $_POST["ps"];
 		
-$query = mysqli_query($conn,"SELECT * FROM usuarios WHERE nombre_usuario = '".$nombre_usuario."' and contraseña = '".$contraseña."'");
+$query = mysqli_query($conn,"SELECT * FROM usuarios WHERE nombre_usuario = '".$nombre_usuario."' and contraseña = '".$ps."'");
 $nr = mysqli_num_rows($query);
 
 if($nr == 1)
