@@ -36,7 +36,6 @@ CREATE TABLE usuarios(
   apellido_materno varchar(100),
   correo varchar(100),
   PRIMARY KEY (nombre_usuario),
-  PRIMARY KEY (id)
 );
 
 
